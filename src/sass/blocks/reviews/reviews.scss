@@ -1,0 +1,125 @@
+.reviews {
+  box-sizing: border-box;
+  position: relative;
+
+  padding-right: 10px;
+
+  width: 100%;
+}
+
+.review {
+  box-sizing: border-box;
+
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-left: 5px;
+  border-bottom: 1px solid $border-color;
+}
+
+.reviews__add-review {
+  position: absolute;
+  top: 0;
+  right: 10px;
+
+  width: 189px;
+  height: 52px;
+
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: $red-color;
+  border: 1px solid $red-color;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.review__name {
+  padding: 0;
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.reviews__pros-cons-list {
+  margin: 0;
+  margin-top: 12px;
+  padding-left: 19px;
+
+  color:$black-color;
+}
+
+.reviews__pros-cons-define {
+  margin-bottom: 5px;
+
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.reviews__pros-cons-describe {
+  margin: 0;
+  margin-bottom: 13px;
+  padding: 0;
+}
+
+.reviews__pros-cons-define--pros::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+
+  color: $red-color;
+}
+
+.reviews__pros-cons-define--cons::before {
+  content: "-";
+  position: absolute;
+  left: 1px;
+
+  color: $red-color;
+}
+
+.review__comment {
+  margin: 0;
+
+  color:$black-color;
+
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.review__body {
+  margin-top: 5px;
+
+  color:$black-color;
+}
+
+.review__rating {
+  margin-bottom: 25px;
+}
+
+.review__star {
+  margin-right: 4px;
+}
+
+.review__is-recommend {
+  margin-left: 20px;
+  font-size: 15px;
+  color: $red-color;
+}
+
+.review__ago {
+  color: $alternative-color;
+  font-size: 14px;
+}
+
+.review__answer {
+  margin-left: 25px;
+
+  font-size: 16px;
+  text-decoration: none;
+
+  color: $red-color;
+}

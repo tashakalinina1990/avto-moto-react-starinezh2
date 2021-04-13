@@ -1,0 +1,14 @@
+.main {
+  background-color: $main-background;
+}
+
+.main__inner {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+  max-width: $desktop-width;
+
+  margin: 0 auto;
+  padding: 72px 20px 111px 20px;
+}

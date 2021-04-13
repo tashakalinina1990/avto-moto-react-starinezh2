@@ -1,0 +1,38 @@
+  
+.chars__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 565px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.chars__define,
+.chars__describe {
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+
+  margin: 0;
+  padding: 20px 0 0 0;
+
+  height: 50px;
+
+  font-size: 16px;
+
+  border-bottom: 1px solid $border-color;
+}
+
+.chars__define:nth-of-type(1),
+.chars__describe:nth-of-type(1) {
+  padding-top: 0;
+  height: 30px;
+}
+
+.chars__describe {
+  color: $black-color;
+  text-align: right;
+}

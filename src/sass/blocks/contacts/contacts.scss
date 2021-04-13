@@ -1,0 +1,48 @@
+.contacts {
+  display: flex;
+
+  width: 100%;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: $text-color;
+}
+
+.contacts__container {
+  width: 431px;
+  height: 271px;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 0;
+
+  width: 274px;
+}
+
+.contacts__define {
+  margin: 0;
+
+  color: $dark-color;
+  
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.contacts__describe {
+  margin: 0;
+  margin-bottom: 10px;
+
+  color: $dark-color;
+
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.contacts__map {
+  border: none;
+}

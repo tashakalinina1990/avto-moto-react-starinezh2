@@ -1,0 +1,15 @@
+.footer {
+  background-color: $footer-background;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: $desktop-width;
+  min-height: 82px;
+
+  margin: 0 auto;
+  padding: 0 20px;
+}

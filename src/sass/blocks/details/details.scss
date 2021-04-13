@@ -1,0 +1,140 @@
+.details {
+  margin-bottom: 90px;
+}
+
+.details__title {
+  margin: 0 0 19px;
+
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.details__list {
+  display: flex;
+  justify-content: flex-start;
+
+  list-style: none;
+
+  margin: 0 0 37px -4px;
+  padding: 0;
+
+  color: $alternative-color;
+}
+
+.details__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 79px;
+}
+
+.details__element:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.details__element--fuel-type:before {
+  background-image: url(../../../img/icon_fuel_type.svg);
+}
+
+.details__element--gear-type:before {
+  background-image: url(../../../img/icon_gear_type.svg);
+}
+
+.details__element--horse-power:before {
+  background-image: url(../../../img/icon_horse_power.svg);
+}
+
+.details__element--engine-value:before {
+  background-image: url(../../../img/icon_engine_value.svg);
+}
+
+.details__description {
+  margin: 0;
+}
+
+.details__prices {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 38px;
+}
+
+.details__price {
+  margin: 0;
+}
+
+.details__price--current {
+  margin-right: 30px;
+
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.details__price--old {
+  position: relative;
+  
+  padding: 2px 5px 0;
+  
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+
+  color: $alternative-color;
+}
+
+.details__price--old:before {
+  content: "";
+	position: absolute;
+	left: 0;
+
+  width: 100%;
+	height: 50%;
+
+	border-bottom: 1px solid $alternative-color;
+	transform: rotate(-5deg);
+}
+
+.details__submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 16px;
+  margin-left: -2px;
+  padding: 18px 18px;
+
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+
+  color: $red-button-color;
+  background: $red-color;
+  
+  border: none;
+  cursor: pointer;
+}
+
+.details__credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: -2px;
+  padding: 17px 18px;
+
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+
+  color: $red-color;
+  background: transparent;
+  border: 1px solid $red-color;
+
+  cursor: pointer;
+}

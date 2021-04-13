@@ -1,0 +1,2 @@
+export const SET_MODAL_VISIBLE = 'SET_MODAL_VISIBILITY';
+export const ADD_REVIEW = 'ADD_REVIEW';
